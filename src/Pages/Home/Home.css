@@ -1,0 +1,60 @@
+.card-component{
+
+    display: flex;
+    background-color:rgba(67, 170, 7, 0.417);
+    height: 100vh;
+}
+
+.name{
+    background-color:rgba(67, 170, 7, 0.417);
+}
+.card{
+    margin: 2rem;
+    height: 230px;
+    width: 170px;
+    box-shadow: 2px 3px 3px black;
+    padding: 1rem;
+    background-color: rgb(64, 205, 165);
+
+}
+.card:hover{
+
+    box-shadow: 4px 5px 1px white;
+}
+.card img{
+    height: 100px;
+    width: 100px;
+}
+.card img:hover{
+   transform: rotate(360deg);
+   transition: 2s;
+   border-radius: 10px;
+   height: 80px;
+   width: 80px;
+}
+
+
+/*---- button----- */
+.button{
+    height:40px;
+    width:150px;
+    color:white;
+    font-size:20px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color:#0610d6;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 6px;
+  text-decoration: none;
+
+
+}
+.button:hover,.button:focus{
+  background-color:rgb(62, 247, 87);
+
+  outline:2px solid #d61a06;
+  outline-offset:8px;
+}

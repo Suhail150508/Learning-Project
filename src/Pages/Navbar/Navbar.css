@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: .4rem 1rem;
+
+}
+
+.header .logo:hover{
+    transform: rotate(360deg); 
+    transition: 1s;
+    color:fuchsia
+}
+
+.navbar{
+display: flex;
+text-decoration: none;
+list-style-type: none;
+
+
+}
+.navbar .nblink{
+margin-right:2rem ;
+color: white;
+font-size: 1.5rem;
+}
+
+.nblink:hover,
+.nblink.active{
+background-color: darkorange;
+padding: 4px;
+border-radius: 4px;
+transition: .3s;
+}
