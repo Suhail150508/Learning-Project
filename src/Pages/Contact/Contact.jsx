@@ -3,6 +3,7 @@ import Swal from 'sweetalert2'
 import { useState, useEffect } from "react";
 import {useNavigate } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
+import image from '../Assests/male.jpeg'
 
 
 
@@ -71,13 +72,13 @@ const valit =(values)=>{
   return (
     <> 
     <Navbar/>
-<div className=' row conatact  bg-secondary text-center pb-4 ' style={{display:"flex",flexWrap:"wrap"}}>
+<div className=' row conatact  text-center pb-4 ' style={{display:"flex",flexWrap:"wrap",background:'lightgray',height:'100vh'}}>
     
-       <div className='col-md-3'></div>
+       <div className='col-md-2'></div>
  
     <div className=' col-md-8 col-lg-6 text-center'>
       <form onSubmit={handleSubmit}>
-        <h2 style={{marginTop:" 2rem",marginBottom:"2rem",color:"#f0e"}}>Sign In</h2>
+        <h2 style={{marginTop:" 2rem",marginBottom:"2rem",color:"#e2f456"}}>Interested to join ?</h2>
          <div className="ui divider"></div>
           <div className="ui form">
             <div className="field">
@@ -127,8 +128,8 @@ const valit =(values)=>{
  
     } 
             </div>
-   <div className='col-md-2'>
-
+   <div className='col-md-2 ' style={{ marginTop:'6rem',borderRadius:'100px', }}>
+    <img src={image} alt="img" style={{ borderRadius:'170px',border:'10px solid #9E4' }} />
    </div>
 </div>
 

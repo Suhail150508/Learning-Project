@@ -31,11 +31,11 @@ function Confirm() {
         <Form.Check type="checkbox" label="Check me out" />
       </Form.Group>
       <Button variant="primary" type="submit" style={{ width:'100%',marginBottom:'2rem' }}>
-       <Link to='/welldone'  style={{ color:'white',fontSize:'1.4rem',textDecoration:'none' }}>Submit</Link> 
+       <Link to='/welldone'  style={{ color:'white',fontSize:'1.4rem',textDecoration:'none' }}>Confirm</Link> 
       </Button>
     </Form>
     </div>
-    <div className='col-md-4 p-4 mr-3' style={{ backgroundColor:'lightgray' }}>
+    <div className='col-md-4 p-4 mr-3' style={{ backgroundColor:'lightgray',border:'2px solid black' }}>
 
 <h2>Flow Instruction</h2>
 <h4>Send your course fee to any Bkash/Nagod/Roket </h4>

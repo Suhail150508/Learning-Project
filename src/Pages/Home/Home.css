@@ -1,6 +1,7 @@
 .card-component{
 
     display: flex;
+    flex-wrap: wrap;
     background-color:rgba(67, 170, 7, 0.417);
     height: 100vh;
 }
